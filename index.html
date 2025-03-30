@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<head>
-  <title>vceshed</title>
-</head>
 <html>
+<head>
+  
+  <title>vceshed</title>
+
+  <script type="module">
+    // Import element definition
+    import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
+    // Register
+    customElements.define('zero-md', ZeroMd)
+  </script>
+  
+</head>
   <body>
-    <h1>Hello world</h1>
+    <h1>Hello world! (html text)</h1>
+    <br>
+    <h2>markdown:</h2>
+    <zero-md src="testmarkdown.md"></zero-md>
   </body>
 </html>
+
+
