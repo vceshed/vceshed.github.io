@@ -1,3 +1,4 @@
+function template() {
 document.createElement('page').innerHTML = `
 
 <img id="banner" src="shelfbanner.jpg" alt="banner">
@@ -13,3 +14,4 @@ document.createElement('page').innerHTML = `
 
 `;
 document.body.appendChild(page);
+}
