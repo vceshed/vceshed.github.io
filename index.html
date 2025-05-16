@@ -4,12 +4,7 @@
   
   <title>vceshed</title>
 
-  <script type="module">
-    // Import element definition
-    import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
-    // Register
-    customElements.define('zero-md', ZeroMd)
-  </script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
   <script src="layout.js"></script>
   <link rel="stylesheet" href="format.css">
   
@@ -41,9 +36,9 @@ net yield 2 (don't need to know how many produced just net yield)
 
 don't need to know the details of the biochemical processes
 
-[test subpage](biology/testsubpage)
+[test subpage](/biology/testsubpage)
       </script>
-      
+      <!-- make template below inject in + make font match the whole site font (change md font/change site font to this) -->
       <template data-append>
         <link rel="stylesheet" href="format.css">
       </template>
