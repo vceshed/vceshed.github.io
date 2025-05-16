@@ -1,4 +1,4 @@
-var body = document.getElementById("body");
+var body = document.body;
 body.innerHTML = `
     <div class="parent">
         <h3>hi</h3>
