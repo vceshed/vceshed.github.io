@@ -15,7 +15,14 @@ page.innerHTML = `
 `;
 document.body.appendChild(page);
 
-const content = document.getElementById("info").content.cloneNode(true); 
+document.getElementByTagName("zero-md").innerHTML += `
+       // make template below inject in + make font match the whole site font (change md font/change site font to this) 
+      <template data-append>
+        <link rel="stylesheet" href="format.css">
+      </template>
+`;
+
+let content = document.getElementById("info").content.cloneNode(true); 
 document.getElementById("markdown").appendChild(content); 
   
 }
