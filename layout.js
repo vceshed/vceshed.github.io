@@ -16,7 +16,7 @@ page.innerHTML = `
 document.body.appendChild(page);
 
 document.getElementByTagName("zero-md").innerHTML += `
-       // make template below inject in + make font match the whole site font (change md font/change site font to this) 
+       <!-- make template below inject in + make font match the whole site font (change md font/change site font to this) -->
       <template data-append>
         <link rel="stylesheet" href="format.css">
       </template>
