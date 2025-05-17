@@ -1,1 +1,43 @@
-p {color: red}
+/* just a temporary test template */
+
+body {min-height: 100vh; font-family: sans-serif; color: white; margin: 0px}
+
+.box {border-width: 10px; color: gray; outline: solid; padding: 8px; margin: 10px; background-color: #343C43; border-radius: 2.5px}
+
+p, h1, h2, h3, h4, h5, a, b:not(#nav) {color: white}
+
+#head {grid-area: head; border-radius: 2.5px 25px 2.5px 25px; padding: 0px}
+#content {grid-area: content; font-size: 140%; padding: 23px; line-height: 1.3em}
+#footer {grid-area: footer}
+#nav {grid-area: nav; font-size: 115%}
+#nav a {background-color: gray; padding: 7px; margin:7px; display: inline-block; width: 5em; text-align: center; border-radius: 2px}
+#nav a:hover {background-color: #9D9D9D}
+#banner {position: fixed; top: 0px; z-index: -1; width: 100%}
+#bannercover {width: 100%; display: block; opacity:0}
+
+#testimage {width: 120px}
+
+#page {
+  background-color: #0A292A; 
+  padding: 10px;
+  margin: 0px;
+  display: grid;
+  grid-template:
+    "head" auto
+    "nav" auto
+    "content" minmax(165px, 1fr)
+    "footer" auto
+}
+
+@media (min-width: 40em){
+#page {
+display: grid;
+
+grid-template:
+"head head" 
+"nav content" minmax(0px, 1fr)
+". content" minmax(100px, auto)
+"footer footer" / minmax(150px, 1fr) 4fr
+}
+  #nav a {text-align: left; display: block; width: inherit}
+}
