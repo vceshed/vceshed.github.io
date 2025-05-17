@@ -7,7 +7,7 @@ page.innerHTML = `
 <img id="bannercover" src="shelfbanner.jpg" alt="bannercover">
 <div id="page">
 <div id="head" class="box"><h1>ㅤHeader</h1></div>
-  <div id="nav" class="box"><b>sidebar</b><hr><a>item 1</a><a>item 2</a><a>item 3</a><a>item 4</a></div>
+  <div id="nav" class="box"><b>sidebar</b><hr><p>item 1</p><p>item 2</p><p>item 3</p><p>item 4</p></div>
   <div id="content" class="box"></div>
   <div id="footer" class="box"><p>footer ᓚ₍ ^. .^₎</p></div>
 </div>
