@@ -1,5 +1,6 @@
 function template() {
-document.createElement('page').innerHTML = `
+let page = document.createElement('div');
+page.innerHTML = `
 
 <img id="banner" src="shelfbanner.jpg" alt="banner">
 <img id="bannercover" src="shelfbanner.jpg" alt="bannercover">
