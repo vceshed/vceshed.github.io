@@ -5,7 +5,7 @@ body {min-height: 100vh; font-family: sans-serif; color: white; margin: 0px}
 .box {border-width: 10px; color: gray; outline: solid; padding: 8px; margin: 10px; background-color: #343C43; border-radius: 2.5px}
 
 p, h1, h2, h3, h4, h5, a, b:not(#nav) {color: white}
-#info :not(#content #info) {display: none}
+#info {display: none}
 
 #head {grid-area: head; border-radius: 2.5px 25px 2.5px 25px; padding: 0px}
 #content {grid-area: content; font-size: 110%; padding: 23px; line-height: 1.3em}
