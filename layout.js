@@ -15,7 +15,7 @@ page.innerHTML = `
 `;
 document.body.appendChild(page);
 
-document.getElementById("info2").innerHTML += `
+document.getElementById("info").innerHTML += `
       <template data-append>
         <link rel="stylesheet" href="format.css">
       </template>
