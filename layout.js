@@ -15,12 +15,12 @@ page.innerHTML = `
 `;
 document.body.appendChild(page);
 
-document.getElementById("info").innerHTML += `
+document.getElementById("info2").innerHTML += `
       <template data-append>
         <link rel="stylesheet" href="format.css">
       </template>
 `;
-let content = document.getElementById("info").cloneNode(true); 
-document.getElementById("content").appendChild(content); 
-  
+const clone = document.getElementById("info").cloneNode(true);
+document.getElementById("content").appendChild(clone);
+
 }
