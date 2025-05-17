@@ -4,7 +4,8 @@ body {min-height: 100vh; font-family: sans-serif; color: white; margin: 0px}
 
 .box {border-width: 10px; color: gray; outline: solid; padding: 8px; margin: 10px; background-color: #343C43; border-radius: 2.5px}
 
-p, h1, h2, h3, h4, h5, a, b:not(#nav) {color: white}
+(p, h1, h2, h3, h4, h5, a, b, ol, ul):not(#nav) {color: white}
+table, th, td {border: 1px solid white; border-collapse: collapse}
 #info {display: none}
 
 #head {grid-area: head; border-radius: 2.5px 25px 2.5px 25px; padding: 0px}
