@@ -8,21 +8,19 @@ page.innerHTML = `
 <div id="page">
 <div id="head" class="box"><h1>ㅤHeader</h1></div>
   <div id="nav" class="box"><b>sidebar</b><hr><a>item 1</a><a>item 2</a><a>item 3</a><a>item 4</a></div>
-  <div id="content" class="box"><div id="markdown"></div></div>
+  <div id="content" class="box"></div>
   <div id="footer" class="box"><p>footer ᓚ₍ ^. .^₎</p></div>
 </div>
 
 `;
 document.body.appendChild(page);
 
-document.getElementById("info").content.getElementByTagName("zero-md").innerHTML += `
-       <!-- make template below inject in + make font match the whole site font (change md font/change site font to this) -->
+document.getElementByTagName("zero-md").innerHTML += `
       <template data-append>
         <link rel="stylesheet" href="format.css">
       </template>
 `;
-
-let content = document.getElementById("info").content.cloneNode(true); 
-document.getElementById("markdown").appendChild(content); 
+let content = document.getElementByTagName("zero-md").cloneNode(true); 
+document.getElementById("content").appendChild(content); 
   
 }
