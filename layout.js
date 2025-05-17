@@ -15,12 +15,12 @@ page.innerHTML = `
 `;
 document.body.appendChild(page);
 
-document.getElementByTagName("zero-md").innerHTML += `
+document.getElementById("info").innerHTML += `
       <template data-append>
         <link rel="stylesheet" href="format.css">
       </template>
 `;
-let content = document.getElementByTagName("zero-md").cloneNode(true); 
+let content = document.getElementById("info").cloneNode(true); 
 document.getElementById("content").appendChild(content); 
   
 }
