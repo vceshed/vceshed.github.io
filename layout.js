@@ -23,7 +23,8 @@ document.getElementById("info").innerHTML += `
         <link rel="stylesheet" href="format.css">
       </template>
 `;
-const clone = document.getElementById("info").cloneNode(true);
+let clone = document.getElementById("info").cloneNode(true);
+clone.id = "info2";
 document.getElementById("content").appendChild(clone);
 
 }
