@@ -7,7 +7,7 @@ body {min-height: 100vh; font-family: sans-serif; color: white; margin: 0px}
 p, h1, h2, h3, h4, h5, ol, ul, b:not(#nav) {color: white}
 a {color:#9ee2bc}
 table, th, td {border: 1px solid white; border-collapse: collapse; padding: 6px}
-#info {display: none}
+zero-md:nth-child(1n) {display: none}
 
 #head {grid-area: head; border-radius: 2.5px 25px 2.5px 25px; padding: 0px}
 #content {grid-area: content; font-size: 110%; padding: 23px; line-height: 1.3em}
