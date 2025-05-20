@@ -1,10 +1,6 @@
 window.onload = function template() {
 
 document.head.innerHTML += `
-<script type="module">
-    import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
-    customElements.define('zero-md', ZeroMd)
-</script>
 <link rel="stylesheet" href="format.css">`;
   
 let page = document.createElement('div');
