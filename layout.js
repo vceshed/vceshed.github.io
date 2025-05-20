@@ -1,4 +1,8 @@
 window.onload = function template() {
+
+document.head.innerHTML += `
+<script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+<link rel="stylesheet" href="format.css">`;
   
 let page = document.createElement('div');
 page.innerHTML = `
@@ -15,10 +19,10 @@ page.innerHTML = `
 `;
 document.body.appendChild(page);
 
+document.getElementByTagName("zero-md")[0].id = "info";
 document.getElementById("info").innerHTML += `
       <template>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11/styles/github.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11/styles/github-dark.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css">
         <link rel="stylesheet" href="format.css">
       </template>
