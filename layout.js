@@ -15,7 +15,6 @@ page.innerHTML = `
 `;
 document.body.appendChild(page);
 
-document.getElementByTagName("zero-md")[0].id = "info";
 document.getElementById("info").innerHTML += `
       <template>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11/styles/github.min.css">
