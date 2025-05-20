@@ -1,7 +1,4 @@
 window.onload = function template() {
-
-document.head.innerHTML += `
-<link rel="stylesheet" href="format.css">`;
   
 let page = document.createElement('div');
 page.innerHTML = `
