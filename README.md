@@ -1,5 +1,5 @@
 # vceshed
-notes for vce 2026
+notes for vce 2026, written in plain HTML/CSS/Js for some reason
 
 Note: not affiliated with the vcaa or vtac. (I am just a student who uses this website to store notes)
 
